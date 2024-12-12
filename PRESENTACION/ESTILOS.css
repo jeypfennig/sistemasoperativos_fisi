@@ -1,0 +1,131 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; 
+    color: #333;
+    img {width: 150px;float: left;}
+    .imagen2 {width: 70px;float: right;}
+    background-image: url(RuedaDentada.png);
+    .imagen3 {width: 400px; float:none;}
+    .imagen4 {width: 100px; float: right;}
+}
+
+header {
+    background-color: #333; 
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+/* Sección principal */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: transparent;  
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.topic {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #ffffff; 
+    border-left: 4px solid #2b2e30;
+    border-radius: 5px;
+}
+
+
+.intro h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.intro p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Botones de sistemas operativos */
+.buttons-container {
+    margin: 20px 0;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.button {
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    transition: background 0.3s ease;
+}
+
+/* Botón Linux */
+.linux-btn {
+    background-color: #6DBE45; /* Verde Linux */
+}
+
+.linux-btn:hover {
+    background-color: #4c9b35; /* Verde más oscuro */
+}
+
+/* Botón Windows */
+.windows-btn {
+    background-color: #0078D7; /* Azul Windows */
+}
+
+.windows-btn:hover {
+    background-color: #0058a3; /* Azul más oscuro */
+}
+
+/* Botón Mac */
+.mac-btn {
+    background-color: #A6A6A6; /* Gris Mac */
+}
+
+.mac-btn:hover {
+    background-color: #8c8c8c; /* Gris más oscuro */
+}
+
+/* Navegación inferior */
+nav {
+    margin-top: 20px;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    background: #333;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 5px;
+    display: inline-block;
+    transition: background 0.3s ease;
+}
+
+nav a:hover {
+    background: #555;
+}
+
+/* Pie de página */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+    position: relative;
+    width: 100%;
+}
