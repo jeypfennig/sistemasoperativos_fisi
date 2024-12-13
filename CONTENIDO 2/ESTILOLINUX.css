@@ -96,9 +96,6 @@ nav a.presentacion {
     background-color: #FF5733; /* Naranja para presentación */
 }
 
-nav a.PRESENTACION {
-    background-color: #030101;
-}
 /* Efecto hover para todos los enlaces */
 nav a:hover {
     opacity: 0.8;
